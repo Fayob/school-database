@@ -3,7 +3,6 @@ import Dashboard from "./components/Dashboard";
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
 import GlobalStyles from "./styles/GlobalStyles";
-import GroupedByClass from "./components/GroupedByClass";
 import initialStudents from "./data";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
       <div style={{ padding: "20px" }}>
         <h1>School Database</h1>
         <Dashboard students={students} />
-        <GroupedByClass students={students} />
         <StudentForm addStudent={addStudent} />
         <label>
           Filter by Graduation Year:
