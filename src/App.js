@@ -3,6 +3,7 @@ import Dashboard from "./components/Dashboard";
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
 import GlobalStyles from "./styles/GlobalStyles";
+import GroupedByClass from "./components/GroupedByClass";
 import initialStudents from "./data";
 
 function App() {
