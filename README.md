@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# SCHOOL DATABASE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DESCRIPTION
+The School Database Application is a React-based web app that allows users to manage student profiles, organize them into classes, and filter by graduation year. It features a dashboard displaying student statistics and provides an intuitive interface for managing school data.
 
-## Available Scripts
+## FEATURE
+### Student Management
+- Add detailed student profiles with name, class, and graduation year.
+- Group students dynamically by their class.
+- Filter students by graduation year for targeted searches.
 
-In the project directory, you can run:
+### Dashboard
+- View the total number of students in the school.
+- Separate statistics for current students and graduates.
 
-### `npm start`
+### User-Friendly Interface
+- Minimalistic design with styled components.
+- Real-time updates for added or filtered data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## TECHNOLOGIES USED
+- Frontend: React.js, Styled-Components
+- Data Management: JavaScript (State Management using useState)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## GETTING STARTED
+### Prerequisites
+Make sure you have the following installed:
 
-### `npm test`
+- Node.js (v14+)
+- npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+Clone the repository:
 
-### `npm run build`
+``` 
+git clone https://github.com/fayob/school-database.git 
+cd school-database
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` 
+npm install 
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the development server:
 
-### `npm run eject`
+``` 
+npm start 
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## USAGE
+### Adding Students
+- Use the "Add Student" form to create a new student profile.
+- Provide the following details:
+    - Name: Full name of the student.
+    - Class: The class or group the student belongs to.
+    - Graduation Year: The expected year of graduation.
+- Click the Add Student button to save the profile.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Viewing Students
+- Students are automatically grouped by their classes.
+- Each class displays a list of students enrolled.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Filtering by Graduation Year
+- Enter a specific graduation year in the filter input box to filter the list of students.
+- The list updates in real-time to show only the relevant students.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Dashboard
+- View the total number of students.
+- See the breakdown of current students (those graduating in or after the current year) and graduates.
 
-## Learn More
+## Future Improvements
+- Search Functionality: Enable full-text search for students by name or class.
+- Sorting Options: Allow sorting students alphabetically or by graduation year.
+- Backend Integration: Add a database/API to persist and fetch student data.
+- Enhanced UI/UX: Improve visuals and responsiveness for mobile devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Live Demo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[School_database](https://fayob.github.io/school-database)
 
-### Code Splitting
+## Author Contact
+For any questions, feedback, or contributions, feel free to reach out:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Email: [adedejifavour6@gmail.com](adedejifavour6@gmail.com)
 
-### Analyzing the Bundle Size
+GitHub: [@fayob](https://github.com/fayob)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT](#) License.
